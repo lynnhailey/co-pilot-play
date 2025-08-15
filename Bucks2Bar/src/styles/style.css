@@ -1,0 +1,28 @@
+/* Dark Navbar Styles */
+.navbar {
+  background-color: #212529;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar-brand {
+  font-size: 1.5rem;
+  color: #fff;
+  text-decoration: none;
+}
+.navbar-nav {
+  display: flex;
+  gap: 1rem;
+}
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  transition: background 0.2s;
+}
+.nav-link:hover {
+  background-color: #343a40;
+}
